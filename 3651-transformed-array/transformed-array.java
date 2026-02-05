@@ -7,6 +7,7 @@ class Solution {
             int x=i+r;
             x=x%n;
             if(x<0) x+=n;
+            
             nums1[i]=nums[x];
         }
         return nums1;
