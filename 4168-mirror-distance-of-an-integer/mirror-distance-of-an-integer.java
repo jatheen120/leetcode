@@ -7,6 +7,7 @@ class Solution {
             x=x/10;
         }
         return r;}
+        
     public int mirrorDistance(int n) {
         return Math.abs(n-rev(n));
     }
