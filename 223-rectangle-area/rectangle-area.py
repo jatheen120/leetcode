@@ -5,4 +5,4 @@ class Solution:
         ow=max(0,min(ax2,bx2)-max(ax1,bx1))
         oh=max(0,min(ay2,by2)-max(ay1,by1))
         o=ow*oh
-        return a1+a2-o 
+        return a1+a2-o
