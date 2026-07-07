@@ -8,7 +8,8 @@ class Solution:
             if d!=0:
                 c+=1
                 sum+=d
-                x+=d*(10**(c-1))
+                x+=d*(10**(c-1)
+                )
             n=n//10
         
         return x*sum
