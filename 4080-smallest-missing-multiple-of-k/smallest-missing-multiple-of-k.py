@@ -3,4 +3,4 @@ class Solution:
         for i in range(k,k*200,k):
             if i not in  nums:
                 return i
-        return 0
+        return -1
