@@ -7,6 +7,7 @@ class Solution:
             s=set()
             for j in range(i, n):
                 s.add(nums[j])
-                ans+=len(s)**2
+                l=len(s)
+                ans+=l**2
 
         return ans
