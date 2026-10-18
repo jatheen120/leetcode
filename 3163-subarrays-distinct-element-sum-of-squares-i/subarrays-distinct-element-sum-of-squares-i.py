@@ -8,6 +8,6 @@ class Solution:
             for j in range(i, n):
                 s.add(nums[j])
                 l=len(s)
-                ans+=l**2
+                ans+=l*l
 
         return ans
